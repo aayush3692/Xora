@@ -6,6 +6,8 @@ import Faq from "./sections/Faq"
 import Testimonials from "./sections/Testimonials"
 import Download from "./sections/Download"
 import Footer from "./sections/Footer"
+import { Analytics } from "@vercel/analytics/next"
+
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <Testimonials/>
       <Download/>
       <Footer/>
+
+      <Analytics/>
     </main>
   )
 }
